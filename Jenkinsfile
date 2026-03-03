@@ -3,7 +3,7 @@ pipeline{
 	stages{
 		stage("job1"){
 			steps{
-			eco "welcom to Jenkins"
+			echo "welcom to Jenkins"
 			}
 		}	
 	}
