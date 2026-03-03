@@ -3,8 +3,13 @@ pipeline{
 	stages{
 		stage("job1"){
 			steps{
-			echo "welcom to Jenkins"
+				echo "welcom to Jenkins"
 			}
 		}	
+		stage('python'){
+			steps{
+				bat "python.py"
+			}
+		}
 	}
 }
